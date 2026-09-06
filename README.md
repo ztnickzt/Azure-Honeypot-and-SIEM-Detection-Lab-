@@ -53,7 +53,7 @@ Configured a Network Security Group to allow inbound traffic for testing.
 
 Disabled Windows Defender Firewall to increase exposure and generate security events.
 
-<img width="1297" height="762" alt="Firewall" src="https://github.com/user-attachments/assets/ffa59227-a3c3-4770-9e52-31ddf45904d6" />
+<img width="600" alt="Firewall" src="https://github.com/user-attachments/assets/ffa59227-a3c3-4770-9e52-31ddf45904d6" />
 
 
 ## 2. Generated Failed Login Activity
@@ -64,8 +64,7 @@ Verified Windows Security logs were generated in Event Viewer.
 
 Confirmed failed authentication attempts appeared as **Event ID 4625**.
 
-<img width="1402" height="785" alt="employ" src="https://github.com/user-attachments/assets/fbe30d55-e6cc-4fa8-8135-db2adb1ebce4" />
-
+<img width="600" alt="employ" src="https://github.com/user-attachments/assets/fbe30d55-e6cc-4fa8-8135-db2adb1ebce4" />
 
 ## 3. Configured Log Collection
 
@@ -77,8 +76,7 @@ Connected the Windows virtual machine using the Azure Monitor Agent.
 
 Created a Data Collection Rule to forward Windows Security Events into Log Analytics.
 
-<img width="1209" height="661" alt="Logs" src="https://github.com/user-attachments/assets/01257fb9-4429-4046-8ac0-d822f41f3ce7" />
-
+<img width="600" alt="Logs" src="https://github.com/user-attachments/assets/01257fb9-4429-4046-8ac0-d822f41f3ce7" />
 
 ## 4. Investigated Security Events
 
@@ -106,7 +104,7 @@ Matched attacker IP addresses with geographic location data.
 
 Enriched failed login events with country and region information.
 
-<img width="1212" height="667" alt="Geo Ip" src="https://github.com/user-attachments/assets/0e15c2c6-0ae5-44fb-ab63-5252ac4658c8" />
+<img width="600" alt="Geo Ip" src="https://github.com/user-attachments/assets/0e15c2c6-0ae5-44fb-ab63-5252ac4658c8" />
 
 
 ## 6. Built an Attack Map
@@ -117,8 +115,7 @@ Configured a map visualization to display failed login attempts by geographic lo
 
 Observed real-world attack traffic targeting the Azure honeypot.
 
-<img width="1211" height="663" alt="Attack Map" src="https://github.com/user-attachments/assets/cd475c38-60e8-4717-a291-8ce4071ce4fb" />
-
+<img width="600" alt="Attack Map" src="https://github.com/user-attachments/assets/cd475c38-60e8-4717-a291-8ce4071ce4fb" />
 
 # Skills Learned
 
